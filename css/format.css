@@ -1,0 +1,41 @@
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+nav .nav-link{
+	color:black; !important;
+}
+
+nav li:hover{
+	color:#9dd276;
+	cursor:pointer;
+}
+
+.navbar-brand img{
+	width:100%;
+	max-width:100px;
+}
+
+img{
+	width:100%;
+}
+
+.owl-dots{
+	display:none;
+}
+
+footer{
+	background-color:#017d16;
+}
+
+footer ul{
+	color:white;
+	list-style-type:none;
+}
+
+
+
+

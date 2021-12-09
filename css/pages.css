@@ -1,0 +1,58 @@
+/*
+.banner{
+    background: url() no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;	
+}
+*/
+
+.jumbotron{
+	font-family: 'Londrina Outline', cursive;
+	color:white;
+}
+
+
+main .head{
+	background:url('../images/fest/head-2.png');
+}
+
+.card{
+	width:1000px;
+}
+
+main h3{
+	font-size:175%;
+	color:white;
+	font-weight:700;
+}
+
+.event-box-1{
+	float:left;
+/* 
+	width:50%;
+	font-size:80%;
+*/
+	width:100%;
+}
+
+/*
+.location img{
+	width:80%;
+	object-fit: cover; 
+	object-position: -50% 0%;
+	
+}
+.location .crop-image{
+	width:100%;
+	height:300px;
+	margin:10%;
+	overflow:hidden;
+}
+*/
+
+
+
+
+

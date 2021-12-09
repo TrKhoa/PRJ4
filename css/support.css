@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+.descr-1, .descr-2, .descr-3, .descr-4, .descr-5{
+	width:100%;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	text-align: justify;
+}
+
+.descr-1{-webkit-line-clamp: 1;}
+.descr-2{-webkit-line-clamp: 2;}
+.descr-3{-webkit-line-clamp: 3;}
+.descr-4{-webkit-line-clamp: 4;}
+.descr-5{-webkit-line-clamp: 5;}
+
+
+
+.fs-5r{font-size:50% !important;}
+.fs-4r{font-size:60% !important;}
+.fs-3r{font-size:70% !important;}
+.fs-2r{font-size:80% !important;}
+.fs-1r{font-size:90% !important;}
+.fs-0{font-size:100% !important;}
+.fs-1{font-size:110% !important;}
+.fs-2{font-size:120% !important;}
+.fs-3{font-size:130% !important;}
+.fs-4{font-size:140% !important;}
+.fs-5{font-size:150% !important;}
+.fs-6{font-size:160% !important;}
+.fs-7{font-size:170% !important;}
+.fs-8{font-size:180% !important;}
+.fs-9{font-size:190% !important;}
+.fs-10{font-size:200 !important;}
+
+.moblie-only, .owl-dots{
+	display:block;
+}
+
+.tablet-only, .owl-dots{
+	display:none;
+	
+}
+
+.desktop-only, .owl-dots{
+	display:none;
+}
+
+@media (min-width: 768px) {
+	
+	.moblie-only{
+		display:none;
+	}
+	
+	.tablet-only{
+		display:block;
+	}
+	
+	.desktop-only{
+		display:block;
+	}
+}
+
+@media (min-width: 992px) { 
+	.descr-1{-webkit-line-clamp: 1;}
+	.descr-2{-webkit-line-clamp: 1;}
+	.descr-3{-webkit-line-clamp: 2;}
+	.descr-4{-webkit-line-clamp: 3;}
+	.descr-5{-webkit-line-clamp: 4;}
+
+	.fs-5r{font-size:50%;}
+	.fs-4r{font-size:60%;}
+	.fs-3r{font-size:80%;}
+	.fs-2r{font-size:90%;}
+	.fs-1r{font-size:100%;}
+	.fs-0{font-size:110%;}
+	.fs-1{font-size:120%;}
+	.fs-2{font-size:130%;}
+	.fs-3{font-size:140%;}
+	.fs-4{font-size:150%;}
+	.fs-5{font-size:160%;}
+	.fs-6{font-size:170%;}
+	.fs-7{font-size:180%;}
+	.fs-8{font-size:190%;}
+	.fs-9{font-size:200%;}
+	.fs-10{font-size:210%;}
+	
+	.moblie-only, .owl-dots{
+		display:none;
+	}
+	
+	.tablet-only, .owl-dots{
+		display:block;
+	}
+	
+	.desktop-only, .owl-dots{
+		display:block;
+	}
+	
+
+}
+
+@media (min-width: 1200px) {
+	.moblie-only, .owl-dots{
+		display:none;
+	}
+	
+	.tablet-only, .owl-dots{
+		display:block;
+	}
+	
+	.desktop-only, .owl-dots{
+		display:block;
+	}
+	
+}
